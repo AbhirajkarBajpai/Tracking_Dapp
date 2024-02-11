@@ -1,0 +1,99 @@
+/* Table.css */
+
+.C-create-tracking-section {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.C-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.C-max-width-lg {
+  max-width: 800px;
+}
+
+.C-header-text {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.C-description-text {
+  color: #555;
+}
+
+.C-add-tracking-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.C-add-tracking-btn:hover {
+  background-color: #0056b3;
+}
+
+.C-table-container {
+  overflow-x: auto;
+}
+
+.C-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.C-table-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.C-table-cell {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.C-table-cell-status {
+  font-weight: bold;
+}
+
+.C-table-cell-status-pending {
+  color: #ffcc00;
+}
+
+.C-table-cell-status-transit {
+  color: #007bff;
+}
+
+.C-table-cell-status-delivered {
+  color: #28a745;
+}
+
+@media only screen and (max-width: 600px) {
+  .C-create-tracking-section {
+    padding: 10px;
+  }
+
+  .C-section-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .C-add-tracking-btn {
+    margin-top: 10px;
+  }
+
+  .C-table-cell {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,69 @@
+.SS-modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.SS-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.SS-modal {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.SS-modal-close-btn {
+  cursor: pointer;
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.SS-modal-header {
+  padding: 16px;
+}
+
+.SS-modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.SS-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.SS-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.SS-button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}

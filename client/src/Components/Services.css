@@ -1,0 +1,64 @@
+/* Services.css */
+
+.S-service-section {
+  padding: 50px 0;
+}
+
+.S-max-width-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.S-main-container {
+  overflow: hidden;
+}
+
+.S-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.s-new{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.S-service-item {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  width: calc(
+    33.33% - 20px
+  ); /* 3 images per row with 2 columns, accounting for margins */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a lift effect */
+  transition: transform 0.3s ease;
+}
+
+.S-service-item:hover {
+  transform: scale(1.05);
+}
+
+.S-service-item img {
+  width: 100%;
+  height: 100%; /* Ensure images fill the container */
+  border-radius: 10px;
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+/* Add media query for responsiveness */
+@media only screen and (max-width: 768px) {
+  .S-service-item {
+    width: calc(
+      50% - 1rem
+    ); /* 2 images per row with 1 column on smaller screens */
+  }
+}
