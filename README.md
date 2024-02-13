@@ -40,3 +40,10 @@ Insert screenshots here to visually showcase the application features.
    ```bash
    cd shipment-tracking-dapp
    npm install
+   ```
+### Run the application:
+
+   ```bash
+   Copy code
+   npm start
+   ```
