@@ -42,7 +42,7 @@ All Shipments:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/shipment-tracking-dapp.git
+   git clone https://github.com/AbhirajkarBajpai/shipment-tracking-dapp.git
 
 2. Install Dependencies
 
