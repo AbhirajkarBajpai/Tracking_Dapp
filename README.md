@@ -35,7 +35,7 @@ Insert screenshots here to visually showcase the application features.
    ```bash
    git clone https://github.com/your-username/shipment-tracking-dapp.git
 
-### Install Dependencies
+2. Install Dependencies
 
    ```bash
    cd shipment-tracking-dapp
@@ -44,6 +44,8 @@ Insert screenshots here to visually showcase the application features.
 ### Run the application:
 
    ```bash
-   Copy code
    npm start
    ```
+3. Connect Metamask to the Rinkeby test network.
+
+4. Interact with the application through your browser.
