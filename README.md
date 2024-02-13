@@ -46,6 +46,9 @@ Insert screenshots here to visually showcase the application features.
    ```bash
    npm start
    ```
-3. Connect Metamask to the Rinkeby test network.
+3. Connect Metamask to the Seoplia test network.
 
 4. Interact with the application through your browser.
+
+## Contribution
+Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
