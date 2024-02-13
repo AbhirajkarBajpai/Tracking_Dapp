@@ -34,3 +34,10 @@ Insert screenshots here to visually showcase the application features.
 
    ```bash
    git clone https://github.com/your-username/shipment-tracking-dapp.git
+
+### Install Dependencies
+
+```bash
+git clone https://github.com/your-username/shipment-tracking-dapp.git
+cd shipment-tracking-dapp
+npm install
